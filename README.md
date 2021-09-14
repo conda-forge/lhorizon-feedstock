@@ -7,9 +7,9 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lhorizon-feedstock/blob/master/LICENSE.txt)
 
-Summary: lhorizon helps you find where things are in the solar system
+Summary: lhorizon helps you find things in the solar system
 
-lhorizon helps you find where things are in the solar system. It is built around a thick Python wrapper for the Jet Propulsion Laboratory (JPL) Horizons (https://ssd.jpl.nasa.gov/?horizons) service. Horizons, provided by JPL's Solar System Dynamics Group (SSD), is the only service in the world that offers no-assembly-required high-precision geometry data for almost every known body in the solar system. lhorizon offers tools to query Horizons for data, parse its responses into useful Python objects, and smoothly incorporate them into bulk calculation and transformation workflows.
+lhorizon helps you find things in the Solar System. It is built around a thick Python wrapper for the Jet Propulsion Laboratory (JPL) Horizons service. Horizons, provided by JPL's Solar System Dynamics Group (SSD), is one of the only sources in the world that offers no-assembly-required high-precision data on the relative positions and velocities of almost every known body in the Solar System. lhorizon offers tools to query Horizons for data, parse its responses into useful Python objects, and smoothly incorporate them into bulk calculation and transformation workflows.
 
 Current build status
 ====================
