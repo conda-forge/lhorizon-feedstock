@@ -23,7 +23,9 @@ requirements:
     - more-itertools
     - numpy
     - pandas
+    - pyerfa
     - python >=3.9
+    - python-dateutils
     - requests
     - sympy 
     - spiceypy
