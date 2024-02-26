@@ -1,5 +1,5 @@
 {% set name = "lhorizon" %}
-{% set version = "1.1.2" %}
+{% set version = "1.1.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lhorizon-{{ version }}.tar.gz
-  sha256: 0461b3215da748d6b19e6d95193dcb3955c97a5451ec251ff09df40179a0a7f3
+  sha256: 3500bb518bbba6450323c71236a135da022c589ede65f7e38f606d7a59af7ca8
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - pandas
     - python >=3.9
     - requests
-    - sympy 
+    - sympy
     - spiceypy
 
 test:
@@ -39,7 +39,8 @@ test:
 about:
   home: https://github.com/millionconcepts/lhorizon.git
   summary: lhorizon helps you find things in the solar system
-  description: lhorizon helps you find things in the Solar System. It is built around a thick Python wrapper for the Jet Propulsion Laboratory (JPL) Horizons service. Horizons, provided by JPL's Solar System Dynamics Group (SSD), is one of the only sources in the world that offers no-assembly-required high-precision data on the relative positions and velocities of almost every known body in the Solar System. lhorizon offers tools to query Horizons for data, parse its responses into useful Python objects, and smoothly incorporate them into bulk calculation and transformation workflows.
+  description: lhorizon helps you find things in the Solar System. It is built around a thick Python wrapper for the Jet Propulsion Laboratory (JPL) Horizons service. Horizons, provided by JPL's Solar System Dynamics Group (SSD), is one of the only sources in the world that offers no-assembly-required high-precision data
+    on the relative positions and velocities of almost every known body in the Solar System. lhorizon offers tools to query Horizons for data, parse its responses into useful Python objects, and smoothly incorporate them into bulk calculation and transformation workflows.
   license: BSD-3-Clause
   license_file: LICENSE
 
