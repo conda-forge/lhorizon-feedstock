@@ -25,7 +25,7 @@ requirements:
     - pandas
     - pyerfa
     - python >=3.9
-    - python-dateutils
+    - python-dateutil
     - requests
     - sympy 
     - spiceypy
