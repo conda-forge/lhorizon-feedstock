@@ -1,5 +1,5 @@
 {% set name = "lhorizon" %}
-{% set version = "1.1.7" %}
+{% set version = "1.1.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lhorizon-{{ version }}.tar.gz
-  sha256: 56445f72c0104fa2c07fa654e47ab435bc8187fd17bc0d884b14fdf608117d25
+  sha256: 6c791e72153631513fa0e3175dc1f7e4f8bab24e113b2831271ce596930edbc2
 
 build:
   number: 0
