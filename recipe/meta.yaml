@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "lhorizon" %}
-{% set version = "1.1.9" %}
+{% set version = "1.1.10" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lhorizon-{{ version }}.tar.gz
-  sha256: 7dd2f64cc3bf58138fcbc7d19f1696eea8b946d114a2ca359afea9963487a502
+  sha256: ab3f8b0ac98b36b836592d1f785e26568624c2c13c1a428c4ce827864bed4cce
 
 build:
   number: 0
